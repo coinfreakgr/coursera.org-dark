@@ -2,7 +2,7 @@
 @name        Coursera.org Dark
 @namespace   coinfreakgr
 @description A dark theme Coursera.org
-@version     1.0.0
+@version     1.0.1
 @homepageURL https://github.com/coinfreakgr/coursera.org-dark
 @updateURL   https://coinfreakgr.github.io/coursera.org-dark/coursera.user.css
 @license     CC-BY-SA-4.0
@@ -90,6 +90,9 @@ div[class^="CardBlock_"]:hover, div[class*=" CardBlock_"]:hover /*some stupid ho
 .c-container,
 .pagination-controls-container .box.wrap, .pagination-controls-container.wrap, .search-bar .input-area.wrap, .search-bar.wrap,
 .horizontal-box.wrap,
+.rc-Home,
+.rc-CourseNavigation,
+.rc-WeekCardHeader .content,
 .rc-NavigationDrawerLink.selected, .rc-NavigationDrawerLink:active, .rc-NavigationDrawerLink:focus, .rc-NavigationDrawerLink:hover,
 .rc-WeekSingleItemDisplay.highlighted, .rc-WeekSingleItemDisplay:hover,
 .rc-UngradedItem:hover,
@@ -105,10 +108,8 @@ div[class^="CardBlock_"]:hover, div[class*=" CardBlock_"]:hover /*some stupid ho
 }
 
 .rc-VideoHighlights, /*notes*/
-.rc-Home,
 .quiz-attempt-questions-spacer,
 .c-open-single-page-body-container,
-.rc-WeekCardHeader .content,
 .Box_120drhm-o_O-startJustify_5bl4d6-o_O-startAlign_jd8lz2-o_O-displayflex_poyjc-o_O-columnDirection_ia4371,
 .rc-QuizCover .pseudocard,
 .rc-QuizCoverHeader .question-count,
@@ -126,6 +127,8 @@ div[class^="CardBlock_"]:hover, div[class*=" CardBlock_"]:hover /*some stupid ho
 }
 
 /*many font colors*/
+.course-name-prefix,
+.c-accomplishments-record-body,
 .rc-SearchTabs .product-tabs .product-tab .product-tab-button,
 .rc-HowItWorks,
 div[class^=CardDropdownWidget] button i, /*module dropdown button - in homepage*/
@@ -141,14 +144,14 @@ div[class^=CardDropdownWidget] button i, /*module dropdown button - in homepage*
 {color:#ddd !important;}
 
 
-.rc-Home .course-content {background-color:#182330 !important;color:#ddd !important; border-left:1px solid #333;}
+.rc-Home .course-content {background-color:#141F2B !important;color:#ddd !important; border-left:0px solid #333;}
 
 /*top menus and buttons*/
 
 .HeaderSmartScroll_psekmk, /*searching for new courses*/
 .rc-ItemPrimaryNavigation,
 .rc-QuizAttemptHeader,
-.rc-CourseNavigation, .rc-PageHeader, .SmartScrollWrapper_1g73uxh
+.rc-PageHeader, .SmartScrollWrapper_1g73uxh
 {background-color:#182330 !important;color:#ddd !important;border-bottom:1px solid #333 !important;}
 
 
