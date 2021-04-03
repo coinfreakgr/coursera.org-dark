@@ -13,7 +13,7 @@
 @-moz-document domain("www.coursera.org") {
 .c-account-settings, /*settings background*/
 .c-phoenix-template-page, /*settings background*/
-body{ /*common values in body*/
+body, #main { /*common values in body*/
   background-color: #141F2B !important;
   border-color: #333 !important;
 }
@@ -96,9 +96,14 @@ div[class^="CardBlock_"]:hover, div[class*=" CardBlock_"]:hover /*some stupid ho
 .rc-NavigationDrawerLink.selected, .rc-NavigationDrawerLink:active, .rc-NavigationDrawerLink:focus, .rc-NavigationDrawerLink:hover,
 .rc-WeekSingleItemDisplay.highlighted, .rc-WeekSingleItemDisplay:hover,
 .rc-UngradedItem:hover,
-.rc-AssignmentRow:hover
+.rc-AssignmentRow:hover,
+.rc-SecondaryNavTogglePanel
 {background-color:#141F2B !important;
     color:#ddd !important;
+}
+  
+.rc-NavigationDrawerLink {
+    color: #aaa !important;
 }
 
 .rc-Help .help-widget /*help widget bottom right*/
@@ -113,7 +118,8 @@ div[class^="CardBlock_"]:hover, div[class*=" CardBlock_"]:hover /*some stupid ho
 .Box_120drhm-o_O-startJustify_5bl4d6-o_O-startAlign_jd8lz2-o_O-displayflex_poyjc-o_O-columnDirection_ia4371,
 .rc-QuizCover .pseudocard,
 .rc-QuizCoverHeader .question-count,
-.rc-LightItemLayout .feedback-not-fixed-at-bottom .rc-ItemFeedback
+.rc-LightItemLayout .feedback-not-fixed-at-bottom .rc-ItemFeedback,
+.rc-HighlightSidebarTogglePanel
 {background-color:#182330 !important;
     color:#ddd !important;}
 
